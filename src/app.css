@@ -1,0 +1,24 @@
+.credit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  color: azure;
+  background-color: lightskyblue;
+  border-radius: 15px;
+  width: 20vw;
+  height: 25vh;
+  padding: 2rem 3rem;
+}
+.bank-name {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.expiration-date {
+  align-self: center;
+  font-size: 1.5rem;
+}
